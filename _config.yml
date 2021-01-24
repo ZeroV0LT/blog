@@ -1,5 +1,6 @@
 theme: jekyll-theme-hacker
-show_downloads: false
+title: dstlr
+description: scaleable knowledge graph construction from unstructured text
 github:
   is_project_page: false
-title: Zerovolt Blog
+  is_user_page: false
