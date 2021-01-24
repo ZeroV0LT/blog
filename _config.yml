@@ -4,3 +4,4 @@ description: scaleable knowledge graph construction from unstructured text
 github:
   is_project_page: false
   is_user_page: false
+  repository_url: http://example.com
