@@ -1,4 +1,7 @@
-## Welcome to My blog
+## Welcome to OV blog
 
-You can use the [example](/example) page here.
+Here you can find bites of IT and Electronic Engineering I stuble upon and interesting stuff I like to tink about.
+
+
+
 
