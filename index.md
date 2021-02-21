@@ -6,7 +6,8 @@ Articles a in a mixed language fashion, some in Italian and some in English depe
 
 ## Cos'è uno smart contract Ethereum  - 21/02/2021
 
-![](/img/ethereum.png){:height="100px"} Ormai tutti sappiamo cos'è Ethereum e sentiamo parlare di questi famosi smart contract anche al compleanno delle nostre figlie, ma cosa sono realmente, come sono fatti e cosa fanno questi smart contract?
+![](/img/ethereum.png){:height="100px" :style="vertical-align:top;margin:5px 5px"}
+Ormai tutti sappiamo cos'è Ethereum e sentiamo parlare di questi famosi smart contract anche al compleanno delle nostre figlie, ma cosa sono realmente, come sono fatti e cosa fanno questi smart contract?
 
 [continua ...](/a/2021/contratto-smart-ethereum/)
 
