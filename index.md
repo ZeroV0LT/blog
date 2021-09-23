@@ -2,14 +2,6 @@
 
 Here you can find bites of IT and Electronic Engineering I stuble upon and interesting stuff I like to tink about.
 
-Articles a in a mixed language fashion, some in Italian and some in English depending on the mood of the day and by the subject.
-
-## Cos'è uno smart contract Ethereum  - 21/02/2021
-
-Ormai tutti sappiamo cos'è Ethereum e sentiamo parlare di questi smart contract anche al compleanno delle nostre figlie; ma cosa sono realmente, come sono fatti e cosa fanno questi smart contract?
-
-[continua ...](/a/2021/contratto-smart-ethereum/)
-
 ## How it's made this blog - 25/01/2021
 
 In 2021 I decided to publish a blog and so selecting a blogging platform became the problem of the day.
