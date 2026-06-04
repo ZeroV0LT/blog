@@ -1,3 +1,15 @@
-theme: jekyll-theme-hacker
 title: ZeroVolt
 description: Backend systems, platform architecture, Kubernetes, Kafka, and applied AI
+url: https://zerovolt.it
+lang: en
+author:
+  name: Domenico Crupi
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+plugins:
+  - jekyll-seo-tag

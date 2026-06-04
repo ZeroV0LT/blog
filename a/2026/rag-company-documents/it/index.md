@@ -1,8 +1,15 @@
-# RAG sui documenti aziendali: quando serve davvero, prima di parlare di architettura
-
-[IT](/a/2026/rag-company-documents/it/) - [EN](/a/2026/rag-company-documents/en/)
-
-2026/06/03 · AI applicata · RAG
+---
+layout: article
+title: "RAG sui documenti aziendali: quando serve davvero"
+description: "Quando il RAG aiuta con i documenti aziendali, quando aggiunge complessità inutile e quali costi comporta in produzione."
+date: 2026-06-03
+lang: it
+topics: AI applicata · RAG
+reading_time: 6 min di lettura
+language_current: Italiano
+language_label: English
+language_url: /a/2026/rag-company-documents/en/
+---
 
 Costruire un sistema "AI" che risponde a domande sui documenti aziendali può sembrare un progetto lineare: indicizzi le fonti, colleghi un modello linguistico e restituisci una risposta con qualche riferimento ai documenti consultati.
 
@@ -54,9 +61,3 @@ La scelta migliore è quasi sempre definire prima il sistema: cosa deve conoscer
 Solo quando il perimetro è chiaro, ha senso iniziare a lavorare su un RAG.
 
 Nel prossimo articolo entro nei dettagli tecnici: parsing, chunking, metadati, ricerca ibrida, reranking e generazione.
-
----
-
-Sono **Domenico Crupi**. Da 25 anni lavoro su sistemi software in produzione — telecom, pagamenti, gaming, pubblica amministrazione. Oggi mi occupo di AI applicata.
-
-hello@zerovolt.it · linkedin.com/in/domenico-crupi

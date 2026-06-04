@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<article class="article-page">
+  <header class="article-header">
+    <div class="article-controls">
+      <a class="back-link" href="{{ '/#articles' | relative_url }}">&larr; All articles</a>
+      <nav class="language-switch" aria-label="Article language">
+        <span>{{ page.language_current }}</span>
+        <a href="{{ page.language_url }}">{{ page.language_label }}</a>
+      </nav>
+    </div>
+
+    <p class="article-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+      <span aria-hidden="true">·</span>
+      <span>{{ page.reading_time }}</span>
+      <span aria-hidden="true">·</span>
+      <span>{{ page.topics }}</span>
+    </p>
+    <h1>{{ page.title }}</h1>
+  </header>
+
+  <div class="article-content">
+    {{ content }}
+  </div>
+
+  <footer class="author-note">
+    {% if page.lang == "it" %}
+      <p class="eyebrow">L'autore</p>
+      <h2>Domenico Crupi</h2>
+      <p>
+        Da 25 anni lavoro su sistemi software in produzione: telecom, pagamenti,
+        gaming e pubblica amministrazione. Oggi mi occupo di AI applicata.
+      </p>
+    {% else %}
+      <p class="eyebrow">About the author</p>
+      <h2>Domenico Crupi</h2>
+      <p>
+        For 25 years I have worked on production software systems across telecom,
+        payments, gaming, and public administration. Today I work on applied AI.
+      </p>
+    {% endif %}
+    <p class="author-links">
+      <a href="mailto:hello@zerovolt.it">Email</a>
+      <a href="https://www.linkedin.com/in/domenico-crupi/">LinkedIn</a>
+    </p>
+  </footer>
+</article>

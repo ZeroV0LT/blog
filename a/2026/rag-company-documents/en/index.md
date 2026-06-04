@@ -1,8 +1,15 @@
-# RAG for company documents: when it actually helps, before discussing architecture
-
-[IT](/a/2026/rag-company-documents/it/) - [EN](/a/2026/rag-company-documents/en/)
-
-2026/06/03 · Applied AI · RAG
+---
+layout: article
+title: "RAG for company documents: when it actually helps"
+description: "When RAG helps with company documents, when it adds unnecessary complexity, and what it costs to operate in production."
+date: 2026-06-03
+lang: en
+topics: Applied AI · RAG
+reading_time: 6 min read
+language_current: English
+language_label: Italiano
+language_url: /a/2026/rag-company-documents/it/
+---
 
 Building an "AI" system that answers questions about company documents can look like a straightforward project: index the sources, connect a language model, and return an answer with a few references to the documents it used.
 
@@ -54,9 +61,3 @@ The best choice is almost always to define the system first: what it needs to kn
 Only when the scope is clear does it make sense to start working on RAG.
 
 In the next article I will go into the technical details: parsing, chunking, metadata, hybrid search, reranking, and generation.
-
----
-
-I am **Domenico Crupi**. For 25 years I have worked on production software systems across telecom, payments, gaming, and public administration. Today I work on applied AI.
-
-hello@zerovolt.it · linkedin.com/in/domenico-crupi
