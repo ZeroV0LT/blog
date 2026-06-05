@@ -6,10 +6,12 @@ layout: default
   <header class="article-header">
     <div class="article-controls">
       <a class="back-link" href="{{ '/#articles' | relative_url }}">&larr; All articles</a>
-      <nav class="language-switch" aria-label="Article language">
-        <span>{{ page.language_current }}</span>
-        <a href="{{ page.language_url }}">{{ page.language_label }}</a>
-      </nav>
+      {% if page.language_url %}
+        <nav class="language-switch" aria-label="Article language">
+          <span>{{ page.language_current }}</span>
+          <a href="{{ page.language_url }}">{{ page.language_label }}</a>
+        </nav>
+      {% endif %}
     </div>
 
     <p class="article-meta">

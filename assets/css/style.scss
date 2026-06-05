@@ -253,6 +253,21 @@ hr {
   padding-top: 5px;
 }
 
+.listing-languages {
+  display: flex;
+  gap: 7px;
+  margin-top: 8px;
+}
+
+.listing-languages a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+.listing-languages span {
+  color: #97a1ab;
+}
+
 .article-body h3 {
   font-size: 27px;
   margin: 0 0 16px;
@@ -437,6 +452,17 @@ hr {
 
 .article-content p {
   margin-bottom: 23px;
+}
+
+.article-content ul,
+.article-content ol {
+  margin: 0 0 26px;
+  padding-left: 24px;
+}
+
+.article-content li {
+  margin-bottom: 10px;
+  padding-left: 4px;
 }
 
 .author-note {
