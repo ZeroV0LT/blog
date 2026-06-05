@@ -6,6 +6,11 @@
     <meta name="theme-color" content="#ffffff">
     <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    {% if page.language_url and page.language_alt_lang %}
+      <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url | absolute_url }}">
+      <link rel="alternate" hreflang="{{ page.language_alt_lang }}" href="{{ page.language_url | absolute_url }}">
+      <link rel="alternate" hreflang="x-default" href="{{ page.language_default_url | absolute_url }}">
+    {% endif %}
     {% seo %}
   </head>
   <body{% if page.url == "/" %} class="page-home"{% endif %}>

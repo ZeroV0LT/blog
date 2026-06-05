@@ -9,6 +9,8 @@ reading_time: 6 min read
 language_current: English
 language_label: Italiano
 language_url: /a/2026/rag-company-documents/it/
+language_alt_lang: it
+language_default_url: /a/2026/rag-company-documents/en/
 ---
 
 Building an "AI" system that answers questions about company documents can look like a straightforward project: index the sources, connect a language model, and return an answer with a few references to the documents it used.

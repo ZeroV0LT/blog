@@ -9,6 +9,8 @@ reading_time: 6 min di lettura
 language_current: Italiano
 language_label: English
 language_url: /a/2026/rag-company-documents/en/
+language_alt_lang: en
+language_default_url: /a/2026/rag-company-documents/en/
 ---
 
 Costruire un sistema "AI" che risponde a domande sui documenti aziendali può sembrare un progetto lineare: indicizzi le fonti, colleghi un modello linguistico e restituisci una risposta con qualche riferimento ai documenti consultati.
